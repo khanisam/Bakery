@@ -1,0 +1,57 @@
+ul{
+    list-style-type: none;
+   overflow: hidden;
+    background-color: rgb(248, 239, 243);
+    text-shadow: 2px 5px 6px red;
+    margin: 50px;
+    padding: 20px;
+    font-family: cursive;
+    font-size: x-large;
+
+}
+li{
+    float: left;
+
+
+}
+li a{
+    text-decoration: none;
+    color: rgb(12, 11, 11);
+    text-align: center;
+    padding: 14px 16px;
+    text-shadow: 5px 5px 3px yellowgreen;
+}
+li a:hover{
+    background-color: violet;
+}
+
+body{
+    background-image: url(cup.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: darkmagenta;
+    font-family: cursive;
+    font-size: 50px;
+    text-shadow: 10px 5px 6px blue;
+}
+img{
+    border-radius: 50%;
+    
+}
+div.info{
+    font-family: cursive;
+    font-size: 25px;
+}
+div.pic{
+    margin: 5px;
+    float: left;
+    width: 300px;
+}
+div.pic:hover{
+    background-color: purple;
+    color: rgb(250, 77, 9);
+    border: 3px pink solid;
+
+}
